@@ -1,0 +1,191 @@
+
+    @font-face {
+    font-family: 'HeirofLightBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HeirofLightRegular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/HeirofLightRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Eulyoo1945-SemiBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Eulyoo1945-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2102-01@1.0/Eulyoo1945-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+    @font-face {
+    font-family: 'Harlow-Solid-Italic';
+    src:url('Harlow-Solid-Italic.ttf.woff') format('woff'),
+        url('Harlow-Solid-Italic.ttf.svg#Harlow-Solid-Italic') format('svg'),
+        url('Harlow-Solid-Italic.ttf.eot'),
+        url('Harlow-Solid-Italic.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+/*font-------------------------------------------*/
+
+html{color: #8c143d;}
+   body, nav, section{margin: 0;}
+   div{margin: auto;}
+   section{ padding: 0; }
+.s1{background-image: url('mainbg.png');  background-size: cover; height: 661px;}
+/*navbar-------------------------------------------*/
+.nav-all{
+   z-index: 1; width: 100%; height: 80px;
+    text-align: center; position: fixed;
+}
+.nav-bar{ display: inline-block; z-index: 1; background: #d8abd4; width: 80%; height: 50px;
+   color: #8c143d; font-size: 16pt; text-align: center; 
+   border-right: 3px solid; border-left: 3px solid;border-bottom: 3px solid;
+   border-radius: 0px 0px 30px 30px; margin-top: 0px;
+   padding-right: 30px; padding-left: 30px; padding-bottom: 15px; padding-top: 5px;  }
+.linelogo{width: 100px; margin: 0; float: left; font-family:'Harlow-Solid-Italic';}
+ul{ height: 50px; margin: 0; padding-bottom: 10px;}
+li{list-style-type: none; float: right; width: 100px; height: 40px; line-height: 40px; border-radius: 50%;margin-top: 10px;}
+a{text-decoration: none; color: #8c143d;display: inline-block; width: 100px; height: 40px;}
+li:hover{background: #8c143d; }
+a:hover{color: #d8abd4;}
+.titlebg{text-align: center;padding-top: 100px; }
+.titlebg h1{font-family: 'Eulyoo1945-Regular'; color: #edd8eb;background: #8c143d;width: 600px;border-radius: 20px; line-height: 40px;font-size: 16pt;margin: auto;margin-top: 20px;}
+.titlebg img {transition: 1s;}
+.titlebg img:hover{transform: scale(1.2);}
+.text_1 p{font-size: 40pt; font-family: 'Eulyoo1945-Regular';}
+.text_main{font-family: 'HeirofLightBold'; font-size: 30pt;}
+
+
+/*section 2-------------------------------------------*/
+.s2{background: #8c143d; height: 100%;}
+.simsim{text-align: center; height: 300px;background-color: #d196c8;}
+.simsimbar{width: 100%;margin: 0px 0px 30px 0px;}
+.col1{width: 50%;}
+
+.jb-box { background-color:#d5a4d2; width: 100%;  overflow: hidden; margin: 0px auto; position: relative; }
+      .jb-box video { width: 100%; }
+      .jb-img img { position: absolute; margin-left: 15%; top: 10%; width: 70%; }
+
+            .col2{width: 50%;}
+            .col2 p{
+                  text-align: center; font-size: 18px; color: #edd8eb;
+            }
+      .col2 img{
+        width: 60%; margin-left: 20%;margin-top: 0px;
+      }
+      .text_1{
+        margin-top: 10%; margin-bottom: 10%;
+      }
+      .text_main{
+        background-color: #edd8eb;
+        color: #8c143d;
+        width: 40%;
+        text-align: center;
+        font-size: 28px;
+      }
+
+
+
+/*section 3-------------------------------------------*/
+.s3{background-image: url('dotgra.png');  background-size: cover; height: 1000px;}
+.s4{background-image: url('stripebg.png');  
+    background-size: cover; height: 800px; padding-top: 160px;}
+
+.flex{display: flex; flex-wrap: wrap;}
+
+.s3txt{height: 500px; text-align: center; padding-top: 500px;}
+.s3 h2{color: #edd8eb;font-family: 'Eulyoo1945-SemiBold';line-height: 40px; margin: 130px 0px 120px 0px;}
+
+/*section 4-------------------------------------------*/
+        .ticket{position: relative;margin: auto; 
+            text-align: center;width: 900px;}
+        .ticket2{margin-top: 40px;}
+        .tk_abs{position: absolute;top: 20px; left: 50px;}
+         .tk_abs2{position: absolute;top: 20px; left: 70px;}
+        .ticket_flex{display: flex; gap: 20px}
+        .col1_img{width: 35%;}
+        .col2_txt{width: 75%; text-align: left; padding-top: 10px; 
+            font-family: 'Eulyoo1945-SemiBold';}
+        .col2_txt h1{background: #edd8eb; font-size: 20pt; display: inline;
+            line-height: 38px;}
+        .col2_txt p{font-size: 13pt;line-height: 26px;}
+        .face{height: 250px;}
+
+/*section 5-------------------------------------------*/
+.s5{text-align: center; font-family: 'Eulyoo1945-SemiBold';
+margin: 0;}
+.s5-1{background: #edd8eb;height: 250px;}
+.s5-1 h2{margin: 0;padding-top: 190px;font-size: 24pt;}
+.s5-2{background: #8c143d;height: 250px;}
+.s5-2 h2{color: #edd8eb;margin: 0;font-size: 24pt;padding-top: 30px;
+    line-height: 50px;}
+.span1{color: #edd8eb; background: #8c143d;}
+
+/*section 6-------------------------------------------*/
+        .s6-1{background: #d8abd4;height: 600x;padding-top: 80px;padding-bottom: 0px;
+            display: flex;}
+            .col_s6-1-l{width: 70%;}
+            .col_s6-1-r{width: 30%;}
+        .s6-1_img{height: 400px;padding-left: 50px;}
+        .s6_wow{width: 190px;margin-left: 30px;position: absolute;}
+        .s6-1_title{line-height: 100px;background:#8c143d; color: #edd8eb;padding-left: 250px;margin-top: 100px;
+            font-family: 'HeirofLightBold'; font-size: 30px;color: white;}
+        .s6-1_title h2{width: 500px;margin: 0;}
+        .s6_info{padding-top: 30px;padding-left: 100px; font-family: 'Eulyoo1945-SemiBold';
+            font-size: 16px; line-height: 26px;}
+        .span2{color: white; background: #8c143d;}
+/*section 6 상품설명_비누메이커-------------------------------*/
+        .s6-2{background: #d196c8; height: 550px;padding: 50px 100px 70px 100px;}
+        .s6-2_outline{border: 2px solid #8c143d; height: 550px;display: flex;overflow: hidden;}
+        .col_s6_1{border-right: 2px solid #8c143d; width: 55%;background-image: url("grid_bg.png"); background-size: cover;
+            overflow: hidden;text-align: center; height: 550px; padding-top: 30px;}
+        .col_s6_2{width: 45%;margin: 0;}
+        .col_s6_3l{width: 50%;margin: 0; padding-left: 30px;}
+        .col_s6_3r{width: 50%;margin: 0;}
+
+        .s6_product{width: 550px;transition: 1s;}
+        .s6_product:hover{transform: scale(1.2);}
+ 
+        .row_s6_1{border-top: 2px solid #8c143d;  font-family: 'HeirofLightRegular';font-size: 20px;
+            background: #8c143d;height: 80px;text-align: center;line-height: 80px;color: white;}
+        .row_s6_2{border-bottom: 2px dashed #8c143d; height: 140px;padding: 30px;
+            font-family: 'Noto Sans KR', sans-serif; font-weight: 700;line-height: 28px;}
+        .row_s6_3{border-bottom: 2px dashed #8c143d; height: 50px; display: flex;}
+        .row_s6_4{border-bottom: 2px dashed #8c143d; height: 50px;}
+        .row_s6_5{border-bottom: 2px dashed #8c143d; height: 50px;}
+        .row_s6_6{ height: 52px;}
+        .row_s6_7{border-top: 2px solid #8c143d; height: 50px;}
+        .infotxt{font-family: 'Source Code Pro', monospace; font-weight: 900;line-height: 52px;margin: 0;}
+
+
+
+/*section 7-------------------------------------------*/
+.s7{background-image: url('mainbg.png');  background-size: cover; height: 800px;
+text-align: center;background-attachment: fixed;}
+.final_banner{margin: auto; overflow: hidden;}
+.finban_img{width: 100%;}
+
+.wink_circle{position: relative;width: 400px; padding-top: 100px; padding-bottom: 60px;}
+.wink{position: absolute;top: 100px; left: 0;}
+
+.wink_circle_img{
+    animation: rotate_image 6s linear infinite; 
+    transform-origin: 50% 50%;
+}
+@keyframes rotate_image{100%
+                        {transform: rotate(360deg);}
+                        }
+
+/*Footer-------------------------------------------*/
+.footer_div{padding: 150px 60px 0px 60px; height: 180px;
+font-family: 'Eulyoo1945-Regular';text-align: center;}
